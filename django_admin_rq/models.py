@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 import uuid
 
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from django.db import models
 from django.utils import six
 from django.utils.six import python_2_unicode_compatible
