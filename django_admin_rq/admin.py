@@ -15,12 +15,12 @@ from django.contrib.contenttypes.models import ContentType
 from django.contrib.staticfiles.templatetags.staticfiles import static
 from django.core.files.storage import FileSystemStorage
 from django.core.files.uploadedfile import UploadedFile
-from django.core.urlresolvers import reverse
 from django.db import models
 from django.db import transaction
 from django.http import HttpResponseRedirect
 from django.template import RequestContext
 from django.template.response import TemplateResponse
+from django.urls import reverse
 from django.utils import six
 from django.utils.decorators import method_decorator
 from django.utils.encoding import force_text
